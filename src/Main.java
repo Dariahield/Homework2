@@ -52,7 +52,9 @@ public class Main {
                 System.out.println("Общий вес двух бойцов " + totalWeight + " кг");
         var differenceWeight = secondBoxer % firstBoxer;
         differenceWeight = secondBoxer - firstBoxer;
-                System.out.println("Разница между весами бойцов " + differenceWeight + " кг");
+
+        System.out.println("Разница между весами бойцов " + differenceWeight + " кг");
+
         // Задача 8
         var totalTime = 640;
         var emploeyeers = 640 / 8;
